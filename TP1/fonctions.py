@@ -1,9 +1,17 @@
+#!/usr/bin/python3
 def puissance(a, b):
-    #if not (isinstance(a, int) and isinstance(b, int)):
 	if not type(a) is int:
 		raise Exception("entier")
 	if not type(b) is int:
 		raise Exception("entier")
-	else:	
-		print("pas entier")
-	return a**b
+	
+	if b < 0:
+        	return 1 / (a ** abs(b))
+
+	else:
+		resultat = 1
+	for _ in range(b):
+		resultat *= a
+		
+	return resultat
+
