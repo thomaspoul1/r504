@@ -1,0 +1,18 @@
+1.1 9
+1.2 408k
+1.3 utilitaire de dépannage
+1.4 jake ginnivan
+1.5 3e5d1596
+1.6 adding tag command reference
+1.7 17/06/2014
+1.8 294c63b
+1.9 wei wang  06/01/2015
+1.10 git log -online |wc -l      = 91
+1.11 le premier donne des réferences supplémentaires (date, branche..)
+1.13 git log --format="%an" | uniq | sort -c | wc -l 
+2.1 git status
+2.2 origin/main
+2.5 non
+2.7  elle affiche les nouvelles modifications de code effectuées depuis le dernier commit
+3.1 non 
+
