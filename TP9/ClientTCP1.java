@@ -9,7 +9,7 @@ public class ClientTCP1 {
             Socket socket = new Socket("localhost", 2016);
 
             DataOutputStream dOut = new DataOutputStream(socket.getOutputStream());
-            dOut.writeUTF("Hi");
+            dOut.writeUTF("L'IUT y'en a vraiment marre vivement qu'on retourne au taf");
 
             socket.close();
         } catch (IOException e) {
@@ -17,5 +17,4 @@ public class ClientTCP1 {
         }
     }
 }
-
 
